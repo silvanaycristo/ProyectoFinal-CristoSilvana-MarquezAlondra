@@ -31,9 +31,9 @@ El problema a resolver es la identificación y análisis de variantes genómicas
 - Portabilidad: El sistema debe ser ejecutable en diferentes plataformas (Windows, Linux, MacOS) con una configuración mínima.
 - Documentación: El sistema debe estar bien documentado para facilitar su uso y mantenimiento.
 
-## Análisis y Diseño
+### Análisis y Diseño
 
-## Lógica del Código
+### Lógica del Código
 
 El paquete genomic_analysis se divide en varios módulos que gestionan diferentes aspectos del análisis de secuencias de ADN:
 
@@ -45,7 +45,7 @@ El paquete genomic_analysis se divide en varios módulos que gestionan diferente
 
 - analyze_variants.py: Contiene la funcionalidad para generar un informe detallado de las variantes identificadas.
 
-## Formato de los Archivos
+### Formato de los Archivos
 
 ### Archivos de Entrada
 
