@@ -27,7 +27,7 @@ Este documento detalla los casos de prueba para el paquete `genomic_analysis`, e
     ]
 ``
 
-## Resultado: La función debe generar el informe con las clasificaciones correctas.
+Resultado: La función debe generar el informe con las clasificaciones correctas.
 
 
 ## Caso de prueba 2: No Hay Variantes
@@ -50,7 +50,7 @@ python
 }
 ```
 
-## Resultado: La función debe devolver un informe vacío sin errores.
+Resultado: La función debe devolver un informe vacío sin errores.
 
 
 ## Casos de prueba para identify_variants
@@ -74,7 +74,7 @@ reference = "ACTGACTAATTG"
 
 ```
 
-## Resultado: La función debe identificar y listar correctamente los SNPs.
+Resultado: La función debe identificar y listar correctamente los SNPs.
 
 
 ## Caso de prueba 4: Secuencias idénticas
@@ -94,7 +94,7 @@ reference = "ACTGACTGACTG"
 []
 ```
 
-## Resultado: La función debe devolver una lista vacía indicando que no hay variantes.
+Resultado: La función debe devolver una lista vacía indicando que no hay variantes.
 
 
 ## Caso de prueba 5: Identificación de Indels
@@ -114,7 +114,7 @@ reference = "ACTGACTGACTG-"
 [(12, '-', 'A')]
 ````
 
-## Resultado: La función debe identificar y listar correctamente los indels.
+Resultado: La función debe identificar y listar correctamente los indels.
 
 
 ## Caso de prueba 6: Longitudes diferentes de secuencias
@@ -130,7 +130,7 @@ reference = "ACTGACTGACTGA"
 
 -**Salida esperada**: La función debe lanzar un ValueError.
 
-## Resultado: La función debe manejar el error y lanzar una excepción.
+Resultado: La función debe manejar el error y lanzar una excepción.
 
 
 ## Caso de prueba n: Otros casos de prueba
