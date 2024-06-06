@@ -58,7 +58,7 @@ Los archivos de datos de prueba deben estar en formato de texto simple, contenie
 
 ### Metadatos y documentación
 
-Este README ofrece información de uso básico. Para obtener información más detallada sobre el diseño y la implementación del paquete, consulte [Enlace a la documentación].
+Este README ofrece información de uso básico. 
 
 ### Código fuente
 
