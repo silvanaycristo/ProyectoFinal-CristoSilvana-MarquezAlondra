@@ -30,7 +30,7 @@ Este documento detalla los casos de prueba para el paquete `genomic_analysis`, e
 Resultado: La función debe generar el informe con las clasificaciones correctas.
 
 
-## Caso de prueba 2: No Hay Variantes
+## Caso de prueba 2: No hay variantes
 
 - **Descripción:** Verificar que la función analyze_variants maneja correctamente el caso donde no hay variantes en la lista.
 
@@ -66,7 +66,7 @@ sequence = "ACTGACTGACTG"
 reference = "ACTGACTAATTG"
 ```
 
--**Salida Esperada:**
+-**Salida esperada:**
 
 ```python
 
