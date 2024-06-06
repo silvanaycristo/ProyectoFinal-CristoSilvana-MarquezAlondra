@@ -1,20 +1,20 @@
 ## Detalles del Proyecto
 Descripción del Paquete
 
-## Fecha: 05/junio/2024
+### Fecha: 05/junio/2024
 
-## Participantes:
+### Participantes:
 
 Silvana Yalú Cristo Martínez (silvanac@lcg.unam.mx)
 Alondra Yolotzin Márquez Mendoza (alondram@lcg.unam.mx)
 
-## Descripción del Problema
+### Descripción del Problema
 
 El problema a resolver es la identificación y análisis de variantes genómicas (SNPs e indels) en secuencias de ADN comparando una secuencia de prueba con una secuencia de referencia. Esto es crucial para estudios genéticos, diagnósticos y terapias personalizadas.
 
-## Especificación de Requisitos
+### Especificación de Requisitos
 
-## Requisitos Funcionales
+### Requisitos Funcionales
 
 - Identificación de Variantes: El sistema debe identificar y listar las posiciones y tipos de variantes entre dos secuencias de ADN.
 
@@ -24,7 +24,7 @@ El problema a resolver es la identificación y análisis de variantes genómicas
 
 - Manejo de Errores: El sistema debe manejar y reportar adecuadamente los errores como archivos no encontrados, secuencias inválidas, etc.
 
-## Requisitos No Funcionales
+### Requisitos No Funcionales
 
 - Rendimiento: El sistema debe ser capaz de procesar secuencias de tamaño moderado en un tiempo razonable.
 - Usabilidad: El sistema debe ser fácil de usar a través de una interfaz de línea de comandos.
@@ -47,17 +47,17 @@ El paquete genomic_analysis se divide en varios módulos que gestionan diferente
 
 ## Formato de los Archivos
 
-## Archivos de Entrada
+### Archivos de Entrada
 
 - sequence.txt: Contiene la secuencia de ADN de prueba.
 
 - reference.txt: Contiene la secuencia de referencia.
 
-## Archivos de Salida
+### Archivos de Salida
 
 - Informe de Variantes: Lista de variantes identificadas con sus posiciones y tipos (SNP o indel).
 
-## Caso de Uso: Identificación de Variantes Genómicas
+### Caso de Uso: Identificación de Variantes Genómicas
 
          +---------------+
          |    Usuario    |
@@ -92,7 +92,7 @@ El paquete genomic_analysis se divide en varios módulos que gestionan diferente
 
 - Descripción: El usuario proporciona los archivos de secuencia y referencia. El sistema lee estos archivos, compara las secuencias y genera un informe de las variantes encontradas.
 
-## Flujo Principal:
+### Flujo Principal:
 
 - El usuario proporciona los archivos sequence.txt y reference.txt.
 - El sistema lee las secuencias desde los archivos.
@@ -100,7 +100,7 @@ El paquete genomic_analysis se divide en varios módulos que gestionan diferente
 - El sistema genera un informe de las variantes encontradas.
 - El sistema muestra el informe al usuario.
 
-## Flujos Alternativos:
+### Flujos Alternativos:
 
 - Si no se proporciona un archivo, el sistema debe mostrar un mensaje de error.
 - Si el formato del archivo no es correcto (por ejemplo, contiene caracteres no válidos), el sistema debe imprimir un mensaje de error en pantalla.
