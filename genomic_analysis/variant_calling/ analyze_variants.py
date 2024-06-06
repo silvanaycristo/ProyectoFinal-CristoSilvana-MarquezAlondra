@@ -104,10 +104,10 @@ def print_report(report):
 # =                            main
 # ===========================================================================
 def main():
-    # step 1. Parse arguments
+    # parseo de argumentos
     args = parse_args()
 
-    # step 2. Read variants from file
+    # Lectura de argumentos desde archivo 
     variants = []
     try:
         with open(args.variants_file, 'r') as var_file:
@@ -123,10 +123,10 @@ def main():
         print(f"Error reading variants file: {e}")
         return
 
-    # step 3. Analyze variants and generate report
+    # Analisis de variantes y generacion de reporte 
     report = analyze_variants(variants)
 
-    # step 4. Print the report
+    # Impresion del reporte
     print_report(report)
 
 if __name__ == "__main__":
